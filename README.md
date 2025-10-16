@@ -23,6 +23,7 @@ with Gaussian Splatting </h1>
 </div>
 
 ## TODO
+- [✅] Release arXiv technique report
 - [✅] Release 3D reconstruction pipeline
 - [✅] Release MLLM-based Articulation Inference and Physics Estimation
 - [ ] Release simulated data generation pipeline

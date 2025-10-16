@@ -1,0 +1,43 @@
+{
+  "robot_name": "articulated_object",
+  "files": {
+    "urdf": "articulated_object.urdf",
+    "body_mesh": "body_centered.glb",
+    "lid_mesh": "lid_centered.glb"
+  },
+  "hinge": {
+    "original_position": [
+      0.7977941643489939,
+      0.28006346750847655,
+      -0.016601312271158308
+    ],
+    "axis": [
+      -0.018310275957379343,
+      -0.010006996124500128,
+      -0.9997822732089867
+    ],
+    "axis_confidence": 0.998542259164306,
+    "translation_applied": [
+      -0.7977941643489939,
+      -0.28006346750847655,
+      0.016601312271158308
+    ]
+  },
+  "joint_limits": {
+    "lower": 0.0,
+    "upper": 1.57,
+    "lower_deg": 0.0,
+    "upper_deg": 89.95437383553924
+  },
+  "dynamics": {
+    "effort": 5.0,
+    "velocity": 2.0,
+    "friction": 0.5,
+    "damping": 0.2
+  },
+  "gpt_recommendations": {
+    "object_type": "box",
+    "reasoning": "The object is identified as a box based on its structure and the way the lid is hinged to the body. The body is chosen as the base link because it is larger and more stable, while the lid is the movable link that rotates around a hinge. The joint limits are set to allow the lid to open fully to 90 degrees, which is typical for box lids. Dynamics parameters are chosen to provide realistic movement without being too fast or too slow, considering the likely lightweight nature of the box.",
+    "parameters_used": true
+  }
+}

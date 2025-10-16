@@ -23,11 +23,11 @@ with Gaussian Splatting </h1>
 </div>
 
 ## TODO
-- [] Release 3D reconstruction pipeline
-- [] Release MLLM-based Articulation Inference and Physics Estimation
-- [] Release simulated data generation pipeline
-- [] Release codebase for training Diffusion Policy on our simulated data
-- [] Sim2Real demployment pipeline
+- [✅] Release 3D reconstruction pipeline
+- [✅] Release MLLM-based Articulation Inference and Physics Estimation
+- [ ] Release simulated data generation pipeline
+- [ ] Release codebase for training Diffusion Policy on our simulated data
+- [ ] Sim2Real demployment pipeline
 
 
 ## 📚 Table of Contents
@@ -40,8 +40,13 @@ with Gaussian Splatting </h1>
 
 
 3. **[Scene Reconstruction](#scene-reconstruction)**  
-   3.1 [Background Reconstruction](#background-reconstruction)  
-   3.2 [Object Reconstruction](#object-reconstruction)  
+    3.1 [Background Reconstruction](#background-reconstruction)
+    
+    3.2 [Object Reconstruction](#object-reconstruction)
+
+   - 3.2.1 [Articulation Inference](Articulation/Articulation.md)
+
+   - 3.2.2 [Physics Estimation](Articulation/Articulation.md)
 
 
 4. **[Simulated Data Generation](#simulated-data-generation)**  
@@ -66,10 +71,14 @@ RoboSimGS codebase is built on top of [Genesis](https://github.com/Genesis-Embod
 
 # Scene Reconstruction
 ## Background Reconstruction
-We are actively working on this section and will update it soon. 🚧
+We reconstruct a 3D background scene using the 3D Gaussian Splatting (3DGS) method within the [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio). For more in-depth information, always refer to the official Nerfstudio GitHub repository. The final output of this process will be a .ply file representing the 3D Gaussian Splatting scene, which can be viewed in compatible real-time renderers.
 
 ## Object Reconstruction
 As mentioned in our paper, the object reconstruction is performed using the 'AR Code' app on an iPhone 16 Pro. By scanning the object with the phone, we can obtain a high-quality mesh.
+
+**MLLM-driven Articulation Inference**. A comprehensive overview of the architecture is available in the [Document](Articulation/Articulation.md).
+
+**MLLM-driven Physics Estimation**. A comprehensive overview of the architecture is available in the [Document](Articulation/Articulation.md).
 
 # Simulated Data Generation
 We are actively working on this section and will update it soon. 🚧

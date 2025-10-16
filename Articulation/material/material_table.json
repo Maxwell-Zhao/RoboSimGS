@@ -1,0 +1,44 @@
+{
+    "materials": [
+      {
+        "name": "gelatin",
+        "youngsModulus": 1.2,
+        "poissonRatio": 0.50
+      },
+      {
+        "name": "rubber",
+        "youngsModulus": 1.8,
+        "poissonRatio": 0.49
+      },
+      {
+        "name": "leather",
+        "youngsModulus": 2.8,
+        "poissonRatio": 0.38
+      },
+      {
+        "name": "nylon",
+        "youngsModulus": 3.5,
+        "poissonRatio": 0.40
+      },
+      {
+        "name": "elastic",
+        "youngsModulus": 4.2,
+        "poissonRatio": 0.42
+      },
+      {
+        "name": "wood",
+        "youngsModulus": 5.8,
+        "poissonRatio": 0.30
+      },
+      {
+        "name": "plant fiber",
+        "youngsModulus": 6.5,
+        "poissonRatio": 0.28
+      },
+      {
+        "name": "metal",
+        "youngsModulus": 100,
+        "poissonRatio": 0.28
+      }
+    ]
+  }

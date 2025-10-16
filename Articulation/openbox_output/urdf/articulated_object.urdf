@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot name="articulated_object">
+
+  <link name="body">
+    <visual>
+      <geometry>
+        <mesh filename="body_centered.glb" scale="1 1 1"/>
+      </geometry>
+      <material name="body_material">
+        <color rgba="0.8 0.6 0.4 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="body_centered.glb" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" 
+               iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="lid">
+    <visual>
+      <geometry>
+        <mesh filename="lid_centered.glb" scale="1 1 1"/>
+      </geometry>
+      <material name="lid_material">
+        <color rgba="0.6 0.8 0.4 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="lid_centered.glb" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" 
+               iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="hinge" type="revolute">
+    <parent link="body"/>
+    <child link="lid"/>
+    <origin xyz="0.000000 0.000000 0.000000" 
+            rpy="0.000000 0.000000 0.000000"/>
+    <axis xyz="-0.018310 -0.010007 -0.999782"/>
+    <limit lower="-2.570000" upper="1.570000" 
+           effort="5.00" velocity="2.00"/>
+    <dynamics friction="0.50" damping="0.20"/>
+  </joint>
+
+</robot>

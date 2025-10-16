@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+torch>=1.10.0
+trimesh>=3.9.0
+open3d>=0.13.0
+
+# Segmentation
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+
+# Optional: For testing
+pybullet>=3.2.0
+matplotlib>=3.3.0
+
+# Utilities
+Pillow>=8.0.0
+opencv-python>=4.5.0
+torch-scatter>=2.0.9
+
+

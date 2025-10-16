@@ -1,0 +1,10 @@
+{
+    "materials": [
+      {
+        "name": "gelatin",
+        "static_friction": 12138,
+        "kinetic_friction": 12138,
+        "stretch_compliance":12138
+        }
+    ]
+  }

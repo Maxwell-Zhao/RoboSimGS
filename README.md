@@ -96,10 +96,10 @@ We are actively working on this section and will update it soon. 🚧
 If you find our work useful, please consider citing us!
 
 ```bibtex
-@article{he2025asap,
+@article{zhao2025high,
   title={High-Fidelity Simulated Data Generation for Real-World Zero-Shot Robotic Manipulation Learning with Gaussian Splatting},
-  author={},
-  journal={},
+  author={Zhao, Haoyu and Zeng, Cheng and Zhuang, Linghao and Zhao, Yaxi and Xue, Shengke and Wang, Hao and Zhao, Xingyue and Li, Zhongyu and Li, Kehan and Huang, Siteng and others},
+  journal={arXiv preprint arXiv:2510.10637},
   year={2025}
 }
 ```

@@ -1,0 +1,14 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2025 Aspose Pty Ltd.
+# File created: 07/13/2025 11:26:19
+
+newmtl Texture
+	illum 2
+	Kd 1 1 1
+	Ke 0 0 0
+	Pr 0.9
+	Pm 0
+	d 1
+	Tr 0
+	map_Kd baked_mesh_6960c670_tex0.png
+	norm baked_mesh_6960c670_norm0.png

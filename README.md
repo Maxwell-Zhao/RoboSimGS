@@ -6,8 +6,12 @@ with Gaussian Splatting </h1>
 
 <div align="center">
 
+This is the official repository of [**High-Fidelity Simulated Data Generation for
+Real-World Zero-Shot Robotic Manipulation
+Learning with Gaussian Splatting**]([https://afforddex.github.io/](https://arxiv.org/pdf/2510.10637)) (RA-L). For more information, please visit our project page.
+
 [[Website]](https://robosimgs.github.io/)
-[[Arxiv]]()
+[[Arxiv]](https://arxiv.org/pdf/2510.10637)
 [[Video]](https://www.youtube.com/watch?v=nvUXAovzc6Q)
 
 [![Linux platform](https://img.shields.io/badge/Platform-linux--64-orange.svg)](https://ubuntu.com/blog/tag/22-04-lts) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
